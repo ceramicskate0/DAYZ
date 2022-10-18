@@ -10,8 +10,8 @@
             <min_dist_infected>30.0</min_dist_infected>
             <max_dist_infected>70.0</max_dist_infected>
             <!-- used to rate point against other players -->
-            <min_dist_player>5.0</min_dist_player>
-            <max_dist_player>7.0</max_dist_player>
+            <min_dist_player>15.0</min_dist_player>
+            <max_dist_player>70.0</max_dist_player>
             <!-- used to rate point against buildings -->
             <min_dist_static>0.5</min_dist_static>
             <max_dist_static>2.0</max_dist_static>
@@ -62,9 +62,9 @@
             <!-- total height of grid in metres -->
             <grid_height>40.0</grid_height>
             <!--  minimum distance from buildings for valid spawn point -->
-            <min_dist_static>0.5</min_dist_static>
+            <min_dist_static>15.0</min_dist_static>
             <!--  maximum distance from buildings used to rate valid spawn point -->
-            <max_dist_static>2.0</max_dist_static>
+            <max_dist_static>200.0</max_dist_static>
             <!-- terrain slope limits for valid spawn point -->
             <min_steepness>-45</min_steepness>
             <max_steepness>45</max_steepness>
@@ -72,7 +72,9 @@
 
         <!-- centers for grids of spawn points -->
         <generator_posbubbles>
-            <pos x="4627.2" y="362.7" z="10433.2"/>
+            	<pos x="4627.2" y="362.7" z="10433.2"/>
+		<pos x="4889.30" z="10401.50" />
+		<pos x="4702.77" z="9584.09" />
 			<!-- <pos x="6052" z="1868" />
 			<pos x="6218" z="2113" />
 			<pos x="7080" z="2482" />
