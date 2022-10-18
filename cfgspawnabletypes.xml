@@ -409,9 +409,19 @@
 		<cargo preset="toolsMedic" />
 	</type>
 	<type name="USMCPants_Desert">
+		<cargo chance="0.50">
+			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
+			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
+			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
+		</cargo>
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="USMCPants_Woodland">
+		<cargo chance="0.50">
+			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
+			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
+			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
+		</cargo>
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="SlacksPants_Beige">
@@ -469,6 +479,11 @@
 		<cargo preset="mixVillage" />
 	</type>
 	<type name="BDUPants">
+		<cargo chance="0.50">
+			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
+			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
+			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
+		</cargo>
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="NBCPantsGray">
