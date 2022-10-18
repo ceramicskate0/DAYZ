@@ -3660,7 +3660,7 @@
         <category name="food"/>
     </type>
     <type name="Broom">
-        <nominal>100</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>80</min>
@@ -3685,7 +3685,7 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="BurlapSack">
-        <nominal>100</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>80</min>
@@ -4161,7 +4161,7 @@
         <usage name="Medic"/>
     </type>
     <type name="Chemlight_Blue">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4175,7 +4175,7 @@
         <usage name="Village"/>
     </type>
     <type name="Chemlight_Green">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4189,7 +4189,7 @@
         <usage name="Village"/>
     </type>
     <type name="Chemlight_Red">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4203,7 +4203,7 @@
         <usage name="Village"/>
     </type>
     <type name="Chemlight_White">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4217,7 +4217,7 @@
         <usage name="Village"/>
     </type>
     <type name="Chemlight_Yellow">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4256,7 +4256,7 @@
         <category name="tools"/>
     </type>
     <type name="ChernarusSportShirt">
-        <nominal>40</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4269,7 +4269,7 @@
         <usage name="School"/>
     </type>
     <type name="ChestHolster">
-        <nominal>40</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4296,7 +4296,7 @@
         <category name="food"/>
     </type>
     <type name="ChildBag_Blue">
-        <nominal>50</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4310,7 +4310,7 @@
         <usage name="School"/>
     </type>
     <type name="ChildBag_Green">
-        <nominal>50</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4324,7 +4324,7 @@
         <usage name="School"/>
     </type>
     <type name="ChildBag_Red">
-        <nominal>50</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -4338,7 +4338,7 @@
         <usage name="School"/>
     </type>
     <type name="Chips">
-        <nominal>23</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>18</min>
@@ -16425,7 +16425,7 @@
         <usage name="Military"/>
     </type>
     <type name="TaloonBag_Blue">
-        <nominal>30</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -16441,7 +16441,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TaloonBag_Green">
-        <nominal>30</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -16457,7 +16457,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TaloonBag_Orange">
-        <nominal>30</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -16473,7 +16473,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TaloonBag_Violet">
-        <nominal>30</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>20</min>
