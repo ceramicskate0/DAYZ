@@ -5808,7 +5808,7 @@
 						<point pos="0.524589 -6.113091 9.505576" range="0.545898" height="0.998100" />
 				</container>
 		</group>
-		<group name="Land_Construction_Crane" lootmax="3">
+		<group name="Land_Construction_Crane" lootmax="4">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
@@ -5828,7 +5828,7 @@
 						<point pos="-1.680152 10.680344 8.900997" range="0.446289" height="1.115723" />
 				</container>
 		</group>
-		<group name="Land_Construction_Building" lootmax="20">
+		<group name="Land_Construction_Building" lootmax="30">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
@@ -6041,7 +6041,7 @@
 						<point pos="4.750735 0.906868 6.758787" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks1" lootmax="15">
+		<group name="Land_Mil_Barracks1" lootmax="35">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="9">
 						<category name="tools" />
@@ -6200,7 +6200,7 @@
 						<point pos="-1.883546 -1.098541 8.319878" range="1.153076" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks3" lootmax="25">
+		<group name="Land_Mil_Barracks3" lootmax="35">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
@@ -6386,7 +6386,7 @@
 						<point pos="-2.076275 -0.933044 13.855999" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks6" lootmax="35">
+		<group name="Land_Mil_Barracks6" lootmax="55">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="12">
 						<category name="tools" />

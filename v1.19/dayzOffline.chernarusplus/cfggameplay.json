@@ -14,9 +14,9 @@
 			"sprintStaminaModifierErc": 0.0,
 			"sprintStaminaModifierCro": 0.0,
 			"staminaWeightLimitThreshold": 60000.0,
-			"staminaMax": 1000.0,
+			"staminaMax": 100000.0,
 			"staminaKgToStaminaPercentPenalty": 0.75,
-			"staminaMinCap": 1000.0
+			"staminaMinCap": 100000.0
 		},
 		"ShockHandlingData":
 		{

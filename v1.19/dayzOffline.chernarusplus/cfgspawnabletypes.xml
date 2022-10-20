@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
+	<damage min="0.0" max="0.2" />
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>
@@ -460,7 +461,7 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="HuntingJacket_Brown">
-			<cargo chance="0.50">
+		<cargo chance="0.50">
 			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
 			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
 			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
@@ -468,7 +469,7 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="HuntingJacket_Spring">
-			<cargo chance="0.50">
+		<cargo chance="0.50">
 			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
 			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
 			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
@@ -476,7 +477,7 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="HuntingJacket_Summer">
-			<cargo chance="0.50">
+		<cargo chance="0.50">
 			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
 			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
 			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
@@ -487,7 +488,7 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="HunterPants_Autumn">
-			<cargo chance="0.50">
+		<cargo chance="0.50">
 			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
 			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
 			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
@@ -495,7 +496,7 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="HunterPants_Brown">
-			<cargo chance="0.50">
+		<cargo chance="0.50">
 			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
 			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
 			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
@@ -503,7 +504,7 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="HunterPants_Spring">
-			<cargo chance="0.50">
+		<cargo chance="0.50">
 			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
 			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
 			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
@@ -511,7 +512,7 @@
 		<cargo preset="mixHunter" />
 	</type>
 	<type name="HunterPants_Summer">
-			<cargo chance="0.50">
+		<cargo chance="0.50">
 			<item name="AmmoBox_556x45_20Rnd" chance="0.20"/>
 			<item name="AmmoBox_762x39_20Rnd" chance="0.20" />
 			<item name="AmmoBox_308Win_20Rnd" chance="0.20" />
@@ -2272,7 +2273,7 @@
 		</attachments>
 	</type>
 	<type name="MP5K">
-		<attachments chance="0.05">
+		<attachments chance="0.55">
 			<item name="MP5_RailHndgrd" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
