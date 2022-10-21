@@ -1111,6 +1111,7 @@
 	<type name="ZmbM_PatrolNormal_PautRev">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixArmy" />
 		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
@@ -1120,6 +1121,8 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
 		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
@@ -1128,6 +1131,8 @@
 	<type name="ZmbM_SoldierNormal">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
