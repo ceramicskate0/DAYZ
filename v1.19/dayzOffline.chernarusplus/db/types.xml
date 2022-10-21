@@ -325,6 +325,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="ContaminatedArea"/>
+		<usage name="Military"/>
     </type>
     <type name="AK_WoodBttstck">
         <nominal>15</nominal>
@@ -405,6 +406,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
+		<usage name="Military"/>
     </type>
     <type name="AgaricusMushroom">
         <nominal>0</nominal>
@@ -522,6 +524,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="containers"/>
         <usage name="Military"/>
+		<usage name="Police"/>
     </type>
     <type name="AmmoBox_00buck_10rnd">
         <nominal>20</nominal>
@@ -929,6 +932,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
+		<usage name="Military"/>
     </type>
     <type name="Ammo_40mm_Explosive">
         <nominal>8</nominal>
@@ -1490,7 +1494,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="AntiChemInjector">
-        <nominal>1</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
         <min>1</min>
@@ -1501,6 +1505,8 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="ContaminatedArea"/>
+		<usage name="Medic"/>
+		<usage name="Military"/>
     </type>
     <type name="AntiPestsSpray">
         <nominal>0</nominal>
@@ -2410,6 +2416,14 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
+		<usage name="Town"/>
+        <usage name="Village"/>
+		<usage name="Military"/>
+        <usage name="Police"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Bandana_Blackpattern">
         <nominal>0</nominal>
@@ -5103,7 +5117,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="ContaminatedArea_Dynamic">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -9273,7 +9287,7 @@
         <category name="weapons"/>
     </type>
     <type name="IodineTincture">
-        <nominal>14</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -9667,6 +9681,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+		<usage name="Military"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="KitchenKnife">
@@ -14006,7 +14021,7 @@
         <usage name="Farm"/>
     </type>
     <type name="PurificationTablets">
-        <nominal>50</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>30</min>
@@ -14018,6 +14033,12 @@
         <tag name="shelves"/>
         <usage name="Medic"/>
         <usage name="Hunting"/>
+		<usage name="Town"/>
+        <usage name="Village"/>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="QuiltedJacket_Black">
         <nominal>0</nominal>
@@ -16976,6 +16997,13 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
+		<usage name="Town"/>
+		<usage name="Military"/>
+        <usage name="Village"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="Thermometer">
         <nominal>0</nominal>
