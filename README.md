@@ -2,7 +2,7 @@
 
 Map: https://dayz.ginfo.gg
 
-#Wipe Server (Not Player):
+#Wipe Server (Not Player) (economy.xml):
  ```   
  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     <economy>
@@ -17,7 +17,7 @@ Map: https://dayz.ginfo.gg
     </economy>
 ```
 
-#SetBack Server:
+#SetBack Server (economy.xml):
  ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <economy>
