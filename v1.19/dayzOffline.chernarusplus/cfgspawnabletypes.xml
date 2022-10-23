@@ -119,7 +119,7 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
@@ -127,7 +127,7 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
@@ -135,7 +135,7 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
@@ -226,7 +226,7 @@
 	<type name="FirstAidKit">
 		<tag name="shelves" />
 		<cargo chance="1.0">
-			<item name="StartKitIV" />
+			<item name="AntiChemInjector" />
 		</cargo>
 		<cargo chance="1.0">
 			<item name="TetracyclineAntibiotics" />
@@ -236,10 +236,10 @@
 		</cargo>
 	</type>
 	<type name="AmmoBox">
-		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
-		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
-		<cargo chance="0.20"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>			
-		<cargo chance="0.20"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>	
+		<cargo chance="0.5"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>	
 		<cargo chance="0.5"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>			
 		<cargo chance="0.5"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>			
 		<cargo chance="0.5"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>			
@@ -266,7 +266,7 @@
 		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>		
 		<cargo chance="0.5"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>			
 		<cargo chance="0.5"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_ChemGas" /> </cargo>
+		<cargo chance="0.2"> <item name="Ammo_40mm_ChemGas" /> </cargo>
 		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Black" /> </cargo>
 		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Red" /> </cargo>
 		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_White" /> </cargo>
@@ -364,7 +364,7 @@
 	<type name="TTSKOPants">
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
 	</type>
 	<type name="HuntingJacket_Autumn">
 		<cargo preset="mixHunter" />
@@ -511,12 +511,13 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
 	</type>
 	<type name="USMCPants_Woodland">
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
 	</type>
 	<type name="SlacksPants_Beige">
 		<cargo preset="mixVillage" />
@@ -576,7 +577,7 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
 	</type>
 	<type name="ManSuit_Black">
 		<cargo chance="0.02">
@@ -707,15 +708,19 @@
 		<cargo preset="mixVillage" />
 	</type>
 	<type name="TacticalShirt_Grey">
+		<cargo preset="mixArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
 	<type name="TacticalShirt_Black">
+		<cargo preset="mixArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
 	<type name="TacticalShirt_Olive">
+		<cargo preset="mixArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
 	<type name="TacticalShirt_Tan">
+		<cargo preset="mixArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
 	<type name="HikingJacket_Black">
@@ -766,10 +771,12 @@
 	<type name="M65Jacket_Olive">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="TTsKOJacket_Camo">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="GorkaEJacket_Summer">
 		<cargo preset="foodArmy" />
