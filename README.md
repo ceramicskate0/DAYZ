@@ -1,7 +1,8 @@
 # DAYZ
 
-Map: https://dayz.ginfo.gg
-Types Changer: https://dzsa.tools/
+- Map: https://dayz.ginfo.gg
+
+- Types Changer: https://dzsa.tools/
 
 **Change** ``events.xml`` ``<active>1<active/>``
 
