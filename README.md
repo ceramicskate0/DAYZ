@@ -1,6 +1,13 @@
 # DAYZ
 
 Map: https://dayz.ginfo.gg
+Types Changer: https://dzsa.tools/
+
+**Change** ``events.xml`` ``<active>1<active/>``
+
+ **to**
+ 
+ ``<active>0<active/>``
 
 #Wipe Server (Not Player) (economy.xml):
  ```   
