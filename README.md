@@ -1,4 +1,4 @@
-# DAYZ
+# DAYZ 'A better DAYZ aventure' mod
 
 - Map: https://dayz.ginfo.gg
 
