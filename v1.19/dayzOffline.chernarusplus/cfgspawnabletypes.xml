@@ -115,6 +115,7 @@
 	<type name="Ammo_40mm_POX">
 		<damage min="0.0" max="0.35" />
 	</type>
+	<!-- Mil Bags -->
 	<type name="AssaultBag_Ttsko">
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
@@ -139,7 +140,53 @@
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
-	<type name="DryBag_Orange">
+	<!-- Mil bag Big -->
+	<type name="AliceBag_Green">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
+		<cargo preset="weaponArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="AliceBag_Camo">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
+		<cargo preset="weaponArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="AliceBag_Black">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
+		<cargo preset="weaponArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<!--Civy Bags -->
+	<type name="MountainBag_Green">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="MountainBag_Orange">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="MountainBag_Red">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="MountainBag_Blue">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="DryBag_Orange">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="mixHunter" />
@@ -168,27 +215,6 @@
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="mixHunter" />
-	</type>
-	<type name="HuntingBag">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="MountainBag_Red">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="MountainBag_Blue">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="MountainBag_Orange">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="MountainBag_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
 	</type>
 	<type name="SmershBag">
 		<cargo preset="foodArmy" />
@@ -223,6 +249,14 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
 	</type>
+	<!--Hunting Bag (HuntingBag)-->
+	</type>
+		<type name="HuntingBag">
+		<cargo preset="mixHunter" />
+		<cargo preset="mixHunter" />
+		<cargo preset="mixHunter" />
+	</type>
+	
 	<type name="FirstAidKit">
 		<tag name="shelves" />
 		<cargo chance="1.0">
@@ -263,13 +297,13 @@
 		</cargo>
 	</type>
 	<type name="GP5GasMask">
-		<damage min="0.0" max="0.35" />
+		<damage min="0.0" max="0.2" />
 		<cargo chance="1.0">
 			<item name="GasMask_Filter" />
 		</cargo>
 	</type>
 	<type name="GasMask">
-		<damage min="0.0" max="0.35" />
+		<damage min="0.0" max="0.2" />
 	</type>
 	<type name="Bear_Beige">
 		<cargo chance="0.00">
@@ -2406,7 +2440,7 @@
 		<attachments chance="1.00">
 			<item name="AK74_Hndgrd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
+		<attachments chance="0.50">
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
@@ -2452,19 +2486,19 @@
 			<item name="M4_CarryHandleOptic" chance="0.50" />
 		</attachments>
 		<attachments chance="1.0">
-			<item name="Mag_CMAG_40Rnd" chance="1.0" />
+			<item name="Mag_CMAG_40Rnd" chance="0.5" />
 			<item name="Mag_CMAG_10Rnd" chance="0.0" />
 			<item name="Mag_CMAG_20Rnd" chance="0.0" />
-			<item name="Mag_CMAG_30Rnd" chance="0.0" />
+			<item name="Mag_CMAG_30Rnd" chance="0.5" />
 		</attachments>
 	</type>
 	<type name="M16A2">
 		<damage min="0.0" max="0.0" />
 		<attachments chance="1.0">
-			<item name="Mag_CMAG_40Rnd" chance="1.0" />
-			<item name="Mag_CMAG_10Rnd" chance="0.0" />
-			<item name="Mag_CMAG_20Rnd" chance="0.0" />
-			<item name="Mag_CMAG_30Rnd" chance="0.0" />
+			<item name="Mag_CMAG_40Rnd" chance="0.2" />
+			<item name="Mag_CMAG_10Rnd" chance="0.2" />
+			<item name="Mag_CMAG_20Rnd" chance="0.2" />
+			<item name="Mag_CMAG_30Rnd" chance="0.2" />
 		</attachments>
 	</type>
 	<type name="FAMAS">
@@ -2488,7 +2522,7 @@
 		</attachments>
 	</type>
 	<type name="AugShort">
-		<damage min="0.3" max="0.3" />
+		<damage min="0.0" max="0.3" />
 		<attachments chance="0.75">
 			<item name="Mag_Aug_30Rnd" chance="1.0" />
 		</attachments>
@@ -2790,7 +2824,11 @@
 			<item name="Battery9V" chance="1.00" />
 		</attachments>
 	</type>
-	
+	<type name="Headtorch_Black">
+		<attachments chance="1.0">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>	
 	<!-- XMAS -->
 	<type name="GiftBox_Small_1">
 		<cargo preset="Xmas_Clothes_Small" />
@@ -2993,7 +3031,7 @@
 		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
 	
-	<!-- MIL VEHICLES -->
+	<!-- Hatchback VEHICLES  -->
 	<type name="OffroadHatchback">
 		<attachments chance="1.00">
 			<item name="HatchbackWheel" chance="1.00" />
@@ -3064,8 +3102,13 @@
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
 		</attachments>
+				<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
 	</type>
-	<!-- Hatchback VEHICLES  -->
 	<type name="OffroadHatchback_Blue">
 		<attachments chance="1.00">
 			<item name="HatchbackWheel" chance="1.00" />
@@ -3135,6 +3178,21 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarBattery" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="OffroadHatchback_White">
@@ -3207,7 +3265,23 @@
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
 		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
 	</type>
+	<!-- MIL VEHICLES  -->
 	<type name="Offroad_02">
 		<attachments chance="1.00">
 			<item name="Offroad_02_Wheel" chance="1.0" />
@@ -3254,32 +3328,53 @@
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="1.0" />
 		</attachments>
-				<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 		<attachments chance="1.00">
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="ChernarusMap" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Pickaxe" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="WoodAxe" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Shovel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="M16A2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Mag_CMAG_40Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="SmallGasCanister" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Blowtorch" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="GlowPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- Sedan VEHICLES -->
@@ -3359,6 +3454,24 @@
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
 		</attachments>
+				<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="ElectronicRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="BatteryCharger" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="CivilianSedan_Wine">
 		<attachments chance="1.00">
@@ -3435,6 +3548,24 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="ElectronicRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="BatteryCharger" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="CivilianSedan_Black">
@@ -3513,6 +3644,24 @@
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
 		</attachments>
+				<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="ElectronicRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="BatteryCharger" chance="1.00" />
+		</attachments>
 	</type>
 	<!--Hatchback 2 VEHICLES  -->
 	<type name="Hatchback_02">
@@ -3564,7 +3713,7 @@
 		<attachments chance="1.00">
 			<item name="Hatchback_02_Trunk" chance="1.00" />
 		</attachments>
-				<attachments chance="1.00">
+		<attachments chance="1.00">
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
@@ -3590,6 +3739,24 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="ElectronicRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="BatteryCharger" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Hatchback_02_Black">
@@ -3641,7 +3808,7 @@
 		<attachments chance="1.00">
 			<item name="Hatchback_02_Trunk_Black" chance="1.00" />
 		</attachments>
-				<attachments chance="1.00">
+		<attachments chance="1.00">
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
@@ -3667,6 +3834,24 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="ElectronicRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="BatteryCharger" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Hatchback_02_Blue">
@@ -3718,7 +3903,7 @@
 		<attachments chance="1.00">
 			<item name="Hatchback_02_Trunk_Blue" chance="1.00" />
 		</attachments>
-				<attachments chance="1.00">
+		<attachments chance="1.00">
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
@@ -3744,6 +3929,24 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="ElectronicRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="BatteryCharger" chance="1.00" />
 		</attachments>
 	</type>
 	<!--Sedan 2 VEHICLES  -->
@@ -3823,6 +4026,18 @@
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
 		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="Sedan_02_Red">
 		<attachments chance="1.00">
@@ -3899,6 +4114,18 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Sedan_02_Grey">
@@ -3977,6 +4204,18 @@
 		<attachments chance="1.00">
 			<item name="GPSReceiver" chance="1.00" />
 		</attachments>
+		<attachments chance="1.00">	
+			<item name="LugWrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
 	</type>
 	<!--Trucks VEHICLES  -->
 	<type name="Truck_01_Covered">
@@ -4029,21 +4268,6 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="ChernarusMap" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
@@ -4074,13 +4298,16 @@
 			<item name="MetalWire" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
 			<item name="Rope" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="FenceKit" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DuctTape" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Whetstone" chance="1.00" />
@@ -4125,13 +4352,70 @@
 			<item name="Flag_APA" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
+			<item name="LugWrench" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="WorkingBoots_Yellow" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Yellow" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DuctTape" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CombinationLock4" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="LargeTent" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Camonet" chance="1.00" />
+		</attachments>	
+		<attachments chance="1.00">	
+			<item name="Camonet" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Blowtorch" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="SmallGasCanister" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Blue">
@@ -4184,21 +4468,6 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="ChernarusMap" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
@@ -4229,13 +4498,16 @@
 			<item name="MetalWire" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
 			<item name="Rope" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="FenceKit" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="DuctTape" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Whetstone" chance="1.00" />
@@ -4244,7 +4516,7 @@
 			<item name="CombinationLock4" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="WorkingGloves_Black" chance="1.00" />
+			<item name="LugWrench" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HandSaw" chance="1.00" />
@@ -4280,13 +4552,64 @@
 			<item name="Flag_APA" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="WorkingBoots_Yellow" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Yellow" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DuctTape" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CombinationLock4" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="LargeTent" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Camonet" chance="1.00" />
+		</attachments>	
+		<attachments chance="1.00">	
+			<item name="Camonet" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Blowtorch" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="SmallGasCanister" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Orange">
@@ -4332,26 +4655,11 @@
 		<attachments chance="1.00">
 			<item name="Truck_01_Door_2_1_Orange" chance="1.00" />
 		</attachments>
-				<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 		<attachments chance="1.00">
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="ChernarusMap" chance="1.00" />
@@ -4384,6 +4692,12 @@
 			<item name="MetalWire" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
 			<item name="Rope" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
@@ -4399,7 +4713,7 @@
 			<item name="CombinationLock4" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="WorkingGloves_Black" chance="1.00" />
+			<item name="LugWrench" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HandSaw" chance="1.00" />
@@ -4435,13 +4749,64 @@
 			<item name="Flag_APA" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="WorkingBoots_Yellow" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
 			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Yellow" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DuctTape" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CombinationLock4" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="LargeTent" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Camonet" chance="1.00" />
+		</attachments>	
+		<attachments chance="1.00">	
+			<item name="Camonet" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="Wrench" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TireRepairKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Blowtorch" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="SmallGasCanister" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
 		</attachments>
 	</type>
 <!--
