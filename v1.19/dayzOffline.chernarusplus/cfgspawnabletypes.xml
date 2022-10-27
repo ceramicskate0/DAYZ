@@ -249,9 +249,8 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
 	</type>
-	<!--Hunting Bag (HuntingBag)-->
-	</type>
-		<type name="HuntingBag">
+	<!--Hunting Bag (HuntingBag) -->
+	<type name="HuntingBag">
 		<cargo preset="mixHunter" />
 		<cargo preset="mixHunter" />
 		<cargo preset="mixHunter" />
