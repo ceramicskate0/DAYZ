@@ -88,13 +88,13 @@
 			<!-- different agent types - class has to begin with AgentType:w -->
 			<agent type="Male">
 				<spawn configName="ZombieMale3_NewAI" />
-				<item name="countMin" val="5" />
-				<item name="countMax" val="10" />
+				<item name="countMin" val="10" />
+				<item name="countMax" val="25" />
 			</agent>
 			<agent type="Female">
 				<spawn configName="ZombieFemale3_NewAI" />
-				<item name="countMin" val="5" />
-				<item name="countMax" val="10" />
+				<item name="countMin" val="10" />
+				<item name="countMax" val="25" />
 			</agent>
 			
 			<!-- count of herds of this type in the map -->

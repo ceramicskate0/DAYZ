@@ -115,6 +115,7 @@
 	<type name="Ammo_40mm_POX">
 		<damage min="0.0" max="0.35" />
 	</type>
+	<!-- Mil Bags -->
 	<type name="AssaultBag_Ttsko">
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
@@ -139,7 +140,53 @@
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
-	<type name="DryBag_Orange">
+	<!-- Mil bag Big -->
+	<type name="AliceBag_Green">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
+		<cargo preset="weaponArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="AliceBag_Camo">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
+		<cargo preset="weaponArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="AliceBag_Black">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="grenades" />
+		<cargo preset="weaponArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<!--Civy Bags -->
+	<type name="MountainBag_Green">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="MountainBag_Orange">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="MountainBag_Red">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="MountainBag_Blue">
+		<cargo preset="food_T1" />
+		<cargo preset="drinks_T1" />
+		<cargo preset="toolsCommon_T1" />
+	</type>
+		<type name="DryBag_Orange">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="mixHunter" />
@@ -168,27 +215,6 @@
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsIndustrial" />
 		<cargo preset="mixHunter" />
-	</type>
-	<type name="HuntingBag">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="MountainBag_Red">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="MountainBag_Blue">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="MountainBag_Orange">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="MountainBag_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
 	</type>
 	<type name="SmershBag">
 		<cargo preset="foodArmy" />
@@ -223,6 +249,14 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
 	</type>
+	<!--Hunting Bag (HuntingBag)-->
+	</type>
+		<type name="HuntingBag">
+		<cargo preset="mixHunter" />
+		<cargo preset="mixHunter" />
+		<cargo preset="mixHunter" />
+	</type>
+	
 	<type name="FirstAidKit">
 		<tag name="shelves" />
 		<cargo chance="1.0">
@@ -263,13 +297,13 @@
 		</cargo>
 	</type>
 	<type name="GP5GasMask">
-		<damage min="0.0" max="0.35" />
+		<damage min="0.0" max="0.2" />
 		<cargo chance="1.0">
 			<item name="GasMask_Filter" />
 		</cargo>
 	</type>
 	<type name="GasMask">
-		<damage min="0.0" max="0.35" />
+		<damage min="0.0" max="0.2" />
 	</type>
 	<type name="Bear_Beige">
 		<cargo chance="0.00">
@@ -2406,7 +2440,7 @@
 		<attachments chance="1.00">
 			<item name="AK74_Hndgrd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
+		<attachments chance="0.50">
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
@@ -3338,6 +3372,9 @@
 		</attachments>
 		<attachments chance="1.00">	
 			<item name="GlowPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- Sedan VEHICLES -->
@@ -4371,6 +4408,15 @@
 		<attachments chance="1.00">	
 			<item name="TruckBattery" chance="1.00" />
 		</attachments>
+				<attachments chance="1.00">	
+			<item name="Blowtorch" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="SmallGasCanister" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Blue">
 		<attachments chance="1.00">
@@ -4555,6 +4601,15 @@
 		</attachments>
 		<attachments chance="1.00">	
 			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Blowtorch" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="SmallGasCanister" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Orange">
@@ -4743,6 +4798,15 @@
 		</attachments>
 		<attachments chance="1.00">	
 			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">	
+			<item name="Blowtorch" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="SmallGasCanister" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">	
+			<item name="PipeWrench" chance="1.00" />
 		</attachments>
 	</type>
 <!--
