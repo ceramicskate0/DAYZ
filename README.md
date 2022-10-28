@@ -1,4 +1,4 @@
-# DAYZ 'A better DAYZ adventure' mod
+# XBOX DAYZ 'A better DAYZ adventure' mod
 
 - Map: https://dayz.ginfo.gg
 
