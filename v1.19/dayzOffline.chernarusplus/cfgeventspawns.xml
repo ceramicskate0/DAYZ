@@ -1372,7 +1372,7 @@
     	<pos x="1443.256" z="6622.697" a="0" y="176.220" group="Train_Mil_Metalurg"/>
     	<pos x="673.779" z="8747.024" a="0" y="194.405" group="Train_Mil_Myshkino"/>
     	<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka"/>
-	</event>
+	</event> 
 	<event name="StaticMilitaryConvoy">
 		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
     	<pos x="8434.497" z="14003.119" a="0" y="205.349" group="Abandoned_Arsenovo"/>
