@@ -321,9 +321,9 @@
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="45.440" z="38.568" a="36.612" y="2.2072"/>
         <child type="StaticObj_Wreck_T72_Chassis_DE" deloot="0" lootmax="3" lootmin="1" x="51.893" z="39.221" a="132.267" y="1.7"/>
         <child type="StaticObj_Wreck_T72_Turret" x="51.135" z="41.070" a="16.243" y="2.7"/>
-        <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="112.567" z="68.760" a="72.708" y="1.102"/>
-        <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="96.211" z="63.229" a="69.485" y="1.102"/>
-        <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="80.282" z="56.654" a="65.747" y="1.102"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="2" lootmin="1" x="112.567" z="68.760" a="72.708" y="1.102"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="2" lootmin="1" x="96.211" z="63.229" a="69.485" y="1.102"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="2" lootmin="1" x="80.282" z="56.654" a="65.747" y="1.102"/>
         <child type="Land_Container_1Moh_DE" deloot="0" lootmax="4" lootmin="3" x="76.912" z="55.137" a="65.231" y="3.0"/>
         <child type="Land_Container_1Moh_DE" deloot="0" lootmax="4" lootmin="3" x="93.450" z="62.204" a="68.970" y="3.0"/>
         <child type="Land_Container_1Moh_DE" deloot="0" lootmax="4" lootmin="3" x="82.397" z="57.662" a="245.910" y="3.0"/>
@@ -331,8 +331,8 @@
         <child type="Land_Container_1Moh_DE" deloot="0" lootmax="4" lootmin="3" x="115.351" z="69.825" a="252.613" y="3.04"/>
         <child type="Land_Container_1Moh_DE" deloot="0" lootmax="4" lootmin="3" x="99.087" z="64.365" a="249.648" y="3.0"/>
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="67.106" z="50.111" a="62.782" y="2.23"/>
-        <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="17.854" z="15.843" a="49.890" y="2.6"/>
-        <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="9.272" z="8.479" a="48.085" y="2.615"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="2" lootmin="1" x="17.854" z="15.843" a="49.890" y="2.6"/>
+        <child type="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" deloot="0" lootmax="2" lootmin="1" x="9.272" z="8.479" a="48.085" y="2.615"/>
     </group>
     
     <!--    Convoys     -->

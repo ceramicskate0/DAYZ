@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
-	<damage min="0.0" max="0.2" />
+	<damage min="0.0" max="0.1" />
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>
@@ -145,7 +145,6 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="grenades" />
-		<cargo preset="weaponArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
@@ -153,7 +152,6 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="grenades" />
-		<cargo preset="weaponArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
@@ -161,7 +159,6 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
 		<cargo preset="grenades" />
-		<cargo preset="weaponArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />
 	</type>
@@ -249,9 +246,8 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
 	</type>
-	<!--Hunting Bag (HuntingBag)-->
-	</type>
-		<type name="HuntingBag">
+	<!--Hunting Bag (HuntingBag) -->
+	<type name="HuntingBag">
 		<cargo preset="mixHunter" />
 		<cargo preset="mixHunter" />
 		<cargo preset="mixHunter" />

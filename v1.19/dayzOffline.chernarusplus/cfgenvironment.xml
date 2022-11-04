@@ -98,7 +98,7 @@
 			</agent>
 			
 			<!-- count of herds of this type in the map -->
-			<item name="herdsCount" val="1" />
+			<item name="herdsCount" val="0" />
 		</territory>
 
 	</territories>
