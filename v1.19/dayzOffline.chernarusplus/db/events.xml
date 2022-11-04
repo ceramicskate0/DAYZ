@@ -822,8 +822,8 @@
     <event name="StaticTrain">
         <nominal>3</nominal>
         <min>1</min>
-        <max>0</max>
-        <lifetime>5400</lifetime>
+        <max>2</max>
+        <lifetime>1800</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
         <distanceradius>1000</distanceradius>

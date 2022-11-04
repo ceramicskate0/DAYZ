@@ -416,7 +416,7 @@
         <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>99</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -446,6 +446,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
+		<usage name="ContaminatedArea"/>
         <usage name="Firefighter"/>
     </type>
     <type name="AlarmClock_Blue">
@@ -533,7 +534,7 @@
         <nominal>15</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>2</min>
         <quantmin>99</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2564,7 +2565,7 @@
     </type>
     <type name="BarrelHoles_Blue">
         <nominal>10</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>99</quantmin>
@@ -2575,7 +2576,7 @@
     </type>
     <type name="BarrelHoles_Green">
         <nominal>10</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>99</quantmin>
@@ -2586,7 +2587,7 @@
     </type>
     <type name="BarrelHoles_Red">
         <nominal>10</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>99</quantmin>
@@ -2596,8 +2597,8 @@
         <category name="tools"/>
     </type>
     <type name="BarrelHoles_Yellow">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
+        <nominal>10</nominal>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>99</quantmin>
@@ -2608,7 +2609,7 @@
     </type>
     <type name="Barrel_Blue">
         <nominal>40</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>20</min>
         <quantmin>99</quantmin>
@@ -2622,7 +2623,7 @@
     </type>
     <type name="Barrel_Green">
         <nominal>40</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>20</min>
         <quantmin>99</quantmin>
@@ -2636,7 +2637,7 @@
     </type>
     <type name="Barrel_Red">
         <nominal>40</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>20</min>
         <quantmin>99</quantmin>
@@ -2650,7 +2651,7 @@
     </type>
     <type name="Barrel_Yellow">
         <nominal>40</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>20</min>
         <quantmin>99</quantmin>
@@ -3852,6 +3853,7 @@
         <tag name="floor"/>
         <usage name="Military"/>
 		<usage name="Industrial"/>
+		<usage name="Hunting"/>
     </type>
     <type name="CanOpener">
         <nominal>50</nominal>
@@ -5918,7 +5920,7 @@
         <usage name="Town"/>
     </type>
     <type name="DryBag_Black">
-        <nominal>40</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -5989,7 +5991,7 @@
         <category name="containers"/>
         <usage name="Coast"/>
         <usage name="Hunting"/>
-				<usage name="Village"/>
+		<usage name="Village"/>
 		<usage name="Town"/>
     </type>
     <type name="DryBag_Yellow">
@@ -6004,7 +6006,7 @@
         <category name="containers"/>
         <usage name="Coast"/>
         <usage name="Hunting"/>
-				<usage name="Village"/>
+		<usage name="Village"/>
 		<usage name="Town"/>
     </type>
     <type name="DuctTape">
@@ -12471,10 +12473,10 @@
         <usage name="Prison"/>
     </type>
     <type name="NBCBootsYellow">
-        <nominal>16</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>99</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12499,7 +12501,7 @@
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>99</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12524,7 +12526,7 @@
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>99</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12549,7 +12551,7 @@
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>99</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12574,7 +12576,7 @@
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>99</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -16172,8 +16174,8 @@
         <category name="tools"/>
     </type>
     <type name="SmallProtectorCase">
-        <nominal>30</nominal>
-        <lifetime>3888000</lifetime>
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
         <quantmin>99</quantmin>
@@ -16184,7 +16186,8 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
 		<usage name="Village"/>
-		<usage name="Police"/>
+		<usage name="Hunting"/>
+		<usage name="Coast"/>
     </type>
     <type name="SmallStone">
         <nominal>0</nominal>
@@ -17479,7 +17482,7 @@
         <usage name="Farm"/>
     </type>
     <type name="Truck_01_Door_1_1_Blue">
-        <nominal>30</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
