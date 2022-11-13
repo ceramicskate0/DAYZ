@@ -10942,7 +10942,7 @@
 						<point pos="-0.214438 16.870667 -2.092011" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Castle_Gate" lootmax="2">
+		<group name="Land_Castle_Gate" lootmax="5">
 				<usage name="Hunting" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -10966,9 +10966,9 @@
 						<point pos="1.072510 -2.821342 -6.458251" range="0.194770" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Castle_Stairs_nolc" lootmax="2">
+		<group name="Land_Castle_Stairs_nolc" lootmax="10">
 				<usage name="Hunting" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="5">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -10986,7 +10986,7 @@
 						<point pos="-0.498291 0.921982 0.368408" range="0.478125" height="1.195313" />
 						<point pos="1.939209 7.019859 -3.859619" range="0.237500" height="0.593750" />
 				</container>
-				<container name="lootweapons" lootmax="2">
+				<container name="lootweapons" lootmax="4">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-2.475586 0.743759 4.165527" range="0.100000" height="0.250000" />
@@ -11530,13 +11530,13 @@
 						<point pos="-1.784097 -1.087738 0.510323" range="0.548584" height="1.371460" />
 				</container>
 		</group>
-		<group name="Land_Ship_Big_FrontA" lootmax="8">
+		<group name="Land_Ship_Big_FrontA" lootmax="18">
 				<usage name="Military" />
 				<usage name="Industrial" />
 				<usage name="Coast" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="8">
+				<container name="lootFloor" lootmax="18">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11601,13 +11601,13 @@
 						<point pos="-7.422365 -17.062881 2.751952" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Ship_Big_FrontB" lootmax="8">
+		<group name="Land_Ship_Big_FrontB" lootmax="18">
 				<usage name="Military" />
 				<usage name="Industrial" />
 				<usage name="Coast" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="8">
+				<container name="lootFloor" lootmax="18">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11660,13 +11660,13 @@
 						<point pos="8.479738 -7.464897 15.260987" range="1.076542" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Ship_Big_BackA" lootmax="8">
+		<group name="Land_Ship_Big_BackA" lootmax="18">
 				<usage name="Military" />
 				<usage name="Industrial" />
 				<usage name="Coast" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="8">
+				<container name="lootFloor" lootmax="18">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11705,13 +11705,13 @@
 						<point pos="-6.273195 -8.911217 -17.441404" range="0.821875" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Ship_Big_BackB" lootmax="8">
+		<group name="Land_Ship_Big_BackB" lootmax="15">
 				<usage name="Military" />
 				<usage name="Industrial" />
 				<usage name="Coast" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="8">
+				<container name="lootFloor" lootmax="12">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11750,13 +11750,13 @@
 						<point pos="-6.341553 -7.888657 15.273925" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Ship_Big_Castle" lootmax="55">
+		<group name="Land_Ship_Big_Castle" lootmax="80">
 				<usage name="Military" />
 				<usage name="Industrial" />
 				<usage name="Coast" />
 				<usage name="Town" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="25">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11832,7 +11832,7 @@
 						<point pos="-1.461914 -14.254990 -0.258301" range="1.199951" height="2.000000" />
 						<point pos="-3.541015 -14.254990 -3.188477" range="1.199951" height="2.000000" />
 				</container>
-				<container name="lootshelves" lootmax="15">
+				<container name="lootshelves" lootmax="25">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11882,7 +11882,7 @@
 						<point pos="-9.202641 -13.810997 15.970212" range="0.409375" height="0.533386" />
 						<point pos="-8.686522 -13.810997 1.278563" range="0.340625" height="0.532158" />
 				</container>
-				<container name="lootweapons" lootmax="15">
+				<container name="lootweapons" lootmax="25">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="7.395996 -14.210243 17.488770" range="0.156738" height="0.391845" />
@@ -11928,7 +11928,7 @@
 						<point pos="-3.165771 -16.946526 6.819825" range="1.038574" height="1.508690" />
 				</container>
 		</group>
-		<group name="Wreck_UH1Y" lootmax="15">
+		<group name="Wreck_UH1Y" lootmax="18">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
@@ -14611,10 +14611,10 @@
 						<point pos="3.323730 -1.379013 -3.540039" range="0.100000" height="0.250000" />
 				</container>
 		</group>
-		<group name="Land_Wreck_hb01_aban1_blue" lootmax="2">
+		<group name="Land_Wreck_hb01_aban1_blue" lootmax="4">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14638,11 +14638,11 @@
                         <proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban1_green" lootmax="2">
+		<group name="Land_Wreck_hb01_aban1_green" lootmax="4">
 				<usage name="Village" />
 				<usage name="Hunting" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14666,10 +14666,10 @@
                         <proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban1_white" lootmax="2">
+		<group name="Land_Wreck_hb01_aban1_white" lootmax="4">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14693,10 +14693,10 @@
                         <proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban2_blue" lootmax="2">
+		<group name="Land_Wreck_hb01_aban2_blue" lootmax="4">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14720,11 +14720,11 @@
 						<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban2_green" lootmax="2">
+		<group name="Land_Wreck_hb01_aban2_green" lootmax="4">
 				<usage name="Village" />
 				<usage name="Hunting" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14748,10 +14748,10 @@
 						<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb01_aban2_white" lootmax="2">
+		<group name="Land_Wreck_hb01_aban2_white" lootmax="4">
 				<usage name="Village" />
 				<usage name="Farm" />
-				<container name="lootFloor" lootmax="2">
+				<container name="lootFloor" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14775,10 +14775,10 @@
 						<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban1_red" lootmax="2">
+		<group name="Land_Wreck_hb02_aban1_red" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14803,10 +14803,10 @@
 						<proxy type="Hatchback_02_Trunk_RedRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban1_black" lootmax="2">
+		<group name="Land_Wreck_hb02_aban1_black" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14831,10 +14831,10 @@
 						<proxy type="Hatchback_02_Trunk_BlackRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban1_blue" lootmax="2">
+		<group name="Land_Wreck_hb02_aban1_blue" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14859,10 +14859,10 @@
 						<proxy type="Hatchback_02_Trunk_BlueRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban2_red" lootmax="2">
+		<group name="Land_Wreck_hb02_aban2_red" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14889,10 +14889,10 @@
 						<proxy type="Hatchback_02_Hood_RedRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban2_black" lootmax="2">
+		<group name="Land_Wreck_hb02_aban2_black" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14919,10 +14919,10 @@
 						<proxy type="Hatchback_02_Hood_BlackRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_hb02_aban2_blue" lootmax="2">
+		<group name="Land_Wreck_hb02_aban2_blue" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14949,10 +14949,10 @@
 						<proxy type="Hatchback_02_Hood_BlueRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_sed01_aban1_white" lootmax="2">
+		<group name="Land_Wreck_sed01_aban1_white" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -14981,10 +14981,10 @@
 						<proxy type="CivSedanHood_WhiteRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_sed01_aban1_black" lootmax="2">
+		<group name="Land_Wreck_sed01_aban1_black" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -15013,10 +15013,10 @@
 						<proxy type="CivSedanHood_BlackRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_sed01_aban1_wine" lootmax="2">
+		<group name="Land_Wreck_sed01_aban1_wine" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -15179,10 +15179,10 @@
 						<point pos="-0.297665 -0.749509 1.398775" range="0.775349" height="0.229155" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Wreck_sed02_aban1_yellow" lootmax="2">
+		<group name="Land_Wreck_sed02_aban1_yellow" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -15237,10 +15237,10 @@
 						<proxy type="Sedan_02_Trunk_GreyRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_sed02_aban1_red" lootmax="2">
+		<group name="Land_Wreck_sed02_aban1_red" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -15266,10 +15266,10 @@
 						<proxy type="Sedan_02_Trunk_RedRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_sed02_aban2_yellow" lootmax="2">
+		<group name="Land_Wreck_sed02_aban2_yellow" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -15296,10 +15296,10 @@
 						<proxy type="Sedan_02_Hood_YellowRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_sed02_aban2_grey" lootmax="2">
+		<group name="Land_Wreck_sed02_aban2_grey" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />
@@ -15326,10 +15326,10 @@
 						<proxy type="Sedan_02_Hood_GreyRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_sed02_aban2_red" lootmax="2">
+		<group name="Land_Wreck_sed02_aban2_red" lootmax="4">
 				<usage name="Village" />
 				<usage name="Industrial" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="vehicleparts" />
 						<category name="tools" />
 						<category name="containers" />

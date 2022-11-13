@@ -43,5 +43,26 @@ Example messages:
         <text>Welcome to my server #name</text>
     </message>
 	-->
-	
+	<message>
+        <deadline>240</deadline>
+        <shutdown>1</shutdown>
+        <text>This server (#name) will Restart in #tmin minutes.</text>
+    </message>
+    <message>
+        <delay>60</delay>
+        <repeat>120</repeat>
+        <onconnect>1</onconnect>
+        <text>The Rules: No Glith. No Hacks. Max tower height 3. No Build in Mil Areas.</text>
+    </message>
+	    <message>
+        <delay>10</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>You're playing on server (#name). Don't be Evil Morty...</text>
+    </message>
+    <message>
+        <delay>10</delay>
+        <onconnect>1</onconnect>
+        <text>Prison has NBC GL. Loot loc's modded. No Base Damage. Destroy damaged vechiles plz. Cycle what is broken.</text>
+    </message>
 </messages>
