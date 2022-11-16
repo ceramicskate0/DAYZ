@@ -662,8 +662,8 @@
         <zone name="InfectedArmy" smin="0" smax="0" dmin="4" dmax="6" x="5255" z="2176.67" r="60"/>
     </territory>
     <territory color="1289674462">
-        <zone name="InfectedPrisoner" smin="0" smax="0" dmin="12" dmax="30" x="2601.31" z="1317.64" r="70"/>
-        <zone name="InfectedPrisoner" smin="0" smax="0" dmin="12" dmax="30" x="2776.25" z="1252.5" r="70"/>
+        <zone name="InfectedPrisoner" smin="25" smax="50" dmin="25" dmax="100" x="2601.31" z="1317.64" r="70"/>
+        <zone name="InfectedPrisoner" smin="15" smax="30" dmin="15" dmax="30" x="2776.25" z="1252.5" r="70"/>
     </territory>
     <territory color="3014176010">
         <zone name="InfectedCity" smin="0" smax="0" dmin="3" dmax="15" x="10967" z="12433.5" r="50"/>
